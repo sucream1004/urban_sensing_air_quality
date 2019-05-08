@@ -13,6 +13,22 @@
 ## Solution
 - Disabled bluetooth adapter (refer to Raspberry pi Documentation)
 
+## Step
+$ sudo apt-get update \
+$ sudo apt-get upgrade \
+$ sudo apt-get dist-upgrade \
+$ sudo rpi-update \
+
+$ sudo nano /boot/config.txt \
+* In ther text file, change dtoverlay=pi3-miniart-bt.
+$ sudo systemctl disable hciuart \
+* To check tty
+$ type dmesg | grep tty
+
+## Reading data code
+- [AirPi rigacci github](https://github.com/RigacciOrg/AirPi)
+- [AdaFruit tutorial: using arduino](https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code)
+
 ## Referece
 - [Raspberry pi Documentation](https://www.raspberrypi.org/documentation/configuration/uart.md)
 - [Open energy monitor archive](https://openenergymonitor.org/forum-archive/node/12311.html)
