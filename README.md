@@ -29,7 +29,7 @@ $ type dmesg | grep tty
 - [AirPi rigacci github](https://github.com/RigacciOrg/AirPi)
 - [AdaFruit tutorial: using arduino](https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code)
 
-## Referece
+## Reference
 - [Raspberry pi Documentation](https://www.raspberrypi.org/documentation/configuration/uart.md)
 - [Open energy monitor archive](https://openenergymonitor.org/forum-archive/node/12311.html)
 - [Community](https://community.home-assistant.io/t/using-bluetooth-and-dtoverlay-pi3-miniuart-bt/63971)
