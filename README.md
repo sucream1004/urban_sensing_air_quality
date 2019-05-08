@@ -1,5 +1,8 @@
 # The repo for urban sensing proejct
 
+## Prerequisite
+- python-serial
+
 ## Using PMS5003 (air quality sensor by the company plantower)
 - PM10, PM2.5 etc.
 - CUSP has Raspberry pi 3 so that we used it.
