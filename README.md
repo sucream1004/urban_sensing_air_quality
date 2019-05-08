@@ -27,7 +27,7 @@ $ sudo systemctl disable hciuart
 # To check tty
 $ type dmesg | grep tty
 ```
-## Reading data code
+## Code to read data
 - [AirPi rigacci github](https://github.com/RigacciOrg/AirPi)
 - [AdaFruit tutorial: using arduino](https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code)
 
