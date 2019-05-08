@@ -24,6 +24,9 @@ $ sudo nano /boot/config.txt
 # In ther text file, add
 dtoverlay=pi3-miniart-bt
 $ sudo systemctl disable hciuart
+$ sudo raspi-config
+# option 5 -> option 6 disable
+$ reboot # reboot raspberry pi
 # To check tty
 $ dmesg | grep tty
 ```
