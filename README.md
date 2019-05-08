@@ -20,9 +20,10 @@ $ sudo apt-get dist-upgrade \
 $ sudo rpi-update \
 
 $ sudo nano /boot/config.txt \
-* In ther text file, change dtoverlay=pi3-miniart-bt.
+* In ther text file, add \
+dtoverlay=pi3-miniart-bt \
 $ sudo systemctl disable hciuart \
-* To check tty
+* To check tty \
 $ type dmesg | grep tty
 
 ## Reading data code
