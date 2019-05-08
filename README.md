@@ -35,3 +35,9 @@ $ type dmesg | grep tty
 - [Raspberry pi Documentation](https://www.raspberrypi.org/documentation/configuration/uart.md)
 - [Open energy monitor archive](https://openenergymonitor.org/forum-archive/node/12311.html)
 - [Community](https://community.home-assistant.io/t/using-bluetooth-and-dtoverlay-pi3-miniuart-bt/63971)
+
+## PS
+```
+# If you wanna use the local ethernet cable to connect raspberry pi from your machine, following command will give you the ip address of raspberry pi.
+$ ping raspberrypi.local
+```
