@@ -25,7 +25,7 @@ $ sudo nano /boot/config.txt
 dtoverlay=pi3-miniart-bt
 $ sudo systemctl disable hciuart
 # To check tty
-$ type dmesg | grep tty
+$ dmesg | grep tty
 ```
 ## Code to read data
 - [AirPi rigacci github](https://github.com/RigacciOrg/AirPi)
