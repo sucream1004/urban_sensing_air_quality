@@ -14,6 +14,7 @@
 - Disabled bluetooth adapter (refer to Raspberry pi Documentation)
 
 ## Step
+```
 $ sudo apt-get update \
 $ sudo apt-get upgrade \
 $ sudo apt-get dist-upgrade \
@@ -25,7 +26,7 @@ dtoverlay=pi3-miniart-bt \
 $ sudo systemctl disable hciuart \
 \# To check tty \
 $ type dmesg | grep tty
-
+```
 ## Reading data code
 - [AirPi rigacci github](https://github.com/RigacciOrg/AirPi)
 - [AdaFruit tutorial: using arduino](https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code)
